@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>프린터 렌탈</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>하나랜탈</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- 배너 -->
+  <div class="banner" id="banner">
+    <img src="http://www.printerzone.co.kr/data/item/1679294725/thumb-KakaoTalk_20250923_090442712_500x500.png" alt="프린터 배너">
+    <div class="banner-buttons">
+      <button id="close-btn">닫기</button>
+      <button id="hide-today-btn">오늘 하루 안 보기</button>
+    </div>
+  </div>
+
   <!-- 상단 네비게이션 -->
   <nav class="navbar">
     <div class="nav-container">
       <div class="logo">프린터 렌탈</div>
-      <button class="menu-btn" id="menu-btn">☰ 메뉴</button>
+      <button class="menu-btn" id="menu-btn"> </button>
     </div>
-    <div class="menu" id="menu">
-      <a href="products.html">프린터 보기</a>
+    
     </div>
   </nav>
 
   <!-- 헤더 -->
   <header>
     <h1 class="fade-in">프린터 렌탈</h1>
-    </header>
+  </header>
 
   <!-- 연락처 -->
   <section id="contact" class="hidden">
@@ -33,9 +41,11 @@
   </section>
 
   <footer>
-    <p>© 2025 하나랜탈. All rights reserved.</p>
+    <p>© 2025 프린터 렌탈. All rights reserved.</p>
   </footer>
 
-  <script src="script.js"></script>
+<script src="script.js"></script>
+<script src="banner.js"></script>
 </body>
 </html>
+
