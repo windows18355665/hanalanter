@@ -9,11 +9,11 @@ menuBtn.addEventListener("click", () => {
 // 스크롤 시 애니메이션 등장
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('show');
-    }
+    if (entry.isIntersecting) entry.target.classList.add('show');
   });
 });
 
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach(el => observer.observe(el));
+
+
